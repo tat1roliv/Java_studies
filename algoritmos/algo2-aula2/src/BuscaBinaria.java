@@ -1,4 +1,5 @@
 import java.util.Arrays; //metodo java
+import java.util.Scanner;
 
 //busca binaria
 /*
@@ -11,13 +12,39 @@ caso nao haja o dado no vetor, v0 > vn (quebra);
 public class BuscaBinaria {
     public static void main(String[] args) {
         int v[] = {7,3,4,5,6,2};
-        Arrays.sort(v);
+        Arrays.sort(v);//ordenando o vetor antes para atender aos requisitos de busca
         imprimir(v);  
+        //buscar um dado
+        Scanner leitor = new Scanner(System.in);
+        System.out.println("valor: ");
+        int valor = leitor.nextInt();
+        int pos = buscaBin(v, valor);
+        if (pos >= 0){
+            System.out.println("v["+ pos +"]");
+        }
+        else{
+            System.out.println("valor não encontrado");
+        }
+
     }
 
     public static int buscaBin(int[] v, int nBuscado){
-        int i = 0;
-        int f = n;
+        int i = 0; //inicial
+        int f = v.length - 1; //final
+        int m;//meio vetor
+        while( i<= f){
+            m = ( i + f ) / 2;
+            if (v[m] == nBuscado ) {
+                return m;
+            }
+            if (nBuscado < v[m]){
+                f = m - 1;
+            }
+            else {
+                i = m + 1;
+            }
+        }
+        return -1;
     }
 
 
