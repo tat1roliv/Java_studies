@@ -1,4 +1,5 @@
 //2. Crie um vetor ordenado com aproximadamente mil números inteiros gerados aleatoriamente. Depois, utilize a técnica da busca sequencial indexada para otimizar o processo da busca. Sugestão, utilize uma tabela índice com um intervalo de cem chaves, aproximadamente.
+/*
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -43,3 +44,4 @@ public class livroDois {
         }
         return -1;
     }
+*/
