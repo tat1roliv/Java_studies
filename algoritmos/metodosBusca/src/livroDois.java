@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Random;
 
 public class livroDois {
-    public static void main(String[] args) {
+  
         ArrayList<Integer> dados = new ArrayList<>();
         Map<Integer, Integer> tabelaIndexada = new HashMap<Integer, Integer>();
 
@@ -43,4 +43,3 @@ public class livroDois {
         }
         return -1;
     }
-}
