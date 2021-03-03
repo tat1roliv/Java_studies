@@ -15,7 +15,7 @@ public class R3Java_Q7 {
 				System.out.println("valor invalido");
 			}
 			
-		}while (n2 ==0 );
+		} while (n2 ==0 );
 		float divisao = (float) n1/n2;
 		System.out.println("Resultado = " + String.format("%.2f", divisao));
 	}
