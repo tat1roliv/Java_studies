@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class R4Java_Q4 {
 	
-	static int retornaX(int x) {
+	static int retornaX(int valorX) {
 		int res;
-		if (x < -1) {
-			res = Math.abs(x+2);
+		if (valorX < -1) {
+			res = Math.abs( valorX + 2);
 		}
-		else if(x <= 2) {
-			res = ((int)Math.pow(x, 2) - 4;
+		else if(valorX <= 2) {
+			res = ((int)Math.pow(valorX, 2) - 4);
 		}
 		else {
-			res = 2 * x - 1;
+			res = 2 * valorX - 1;
 		}
 		return res;
 	}
