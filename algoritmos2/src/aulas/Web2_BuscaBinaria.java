@@ -42,10 +42,10 @@ public class Web2_BuscaBinaria {
 	                return m;
 	            }
 	            if (nBuscado < v[m]){
-	                f = m - 1;
+	                f = m - 1;//desloca a posicao de f para o meio -1
 	            }
 	            else {
-	                i = m + 1;
+	                i = m + 1;//desloca a poscao de i para m+1
 	            }
 	        }
 	        return -1;

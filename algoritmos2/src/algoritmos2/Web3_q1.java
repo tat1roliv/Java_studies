@@ -1,8 +1,16 @@
 package algoritmos2;
 
 public class Web3_q1 {
+
+/*
+ Potencia
+ 
+pot(n) = 1 se n=0;
+pot(n) = a.a(elv a n-1)  se n>0;
+ */
+	
 	public static void main(String[] args) {
-		int p = potencia(2,3);
+		int p = potencia(9,2);
 		System.out.println("Potencia = " + p);
 	}
 	public static int potencia(int a, int n) {
