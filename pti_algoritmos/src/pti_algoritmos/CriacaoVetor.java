@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class CriacaoVetor {
 	
+	
+	
+	
+	
 	//funcao criarVetor
     static int[] CriarVetor() {
     	
