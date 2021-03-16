@@ -4,6 +4,10 @@ import java.util.Arrays;
 /*
  
  https://www.youtube.com/watch?v=92BfuxHn2XE
+ 
+o(n)² -> classe de complexidade
+ 
+ 
  */
 
 public class Web4_InsertionSort {

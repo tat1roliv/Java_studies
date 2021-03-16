@@ -8,7 +8,7 @@ busca o menor elemento -> posição 0;
 repete procedimento -> pos 1;
 repete -> ...n
 
-o(n)² (for + for -> mesma classe de complexidade)
+o(n)² -> classe de complexidade
 
 https://www.youtube.com/watch?v=92BfuxHn2XE
 

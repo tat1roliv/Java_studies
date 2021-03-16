@@ -8,6 +8,8 @@ compara pares de elementos subjacentes (elemento da esquerda com o seguinte, se 
 
 https://www.youtube.com/watch?v=Cq7SMsQBEUw
 
+o(n)² -> classe de complexidade
+
 */
 
 

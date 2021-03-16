@@ -1,6 +1,26 @@
 package algoritmos2;
+import java.util.Scanner;
 
 public class Web3_q3 {
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("digite a: ");
+		int a = leitor.nextInt();
+		System.out.println("digite b: ");
+		int b = leitor.nextInt();
+		int prod = produto(a,b);
+		System.out.println("Produto: " + prod);
+	
+		
+	}
+
+	public static int produto(int x, int y) {
+		if(y==1) {
+			return x;
+		}
+		return produto(x, y-1) + x;
+		
+	}
 
 }
 
