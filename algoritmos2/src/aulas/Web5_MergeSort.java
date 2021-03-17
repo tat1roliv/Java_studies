@@ -6,6 +6,12 @@ import java.util.Arrays;
  estrategia recursiva de divisao e conquista
  
  complexidade => n log n
+ 
+ metodo de divisao e conquista (dividir em partes menores -> )
+ 
+ divide o vetor ao meio
+ identifica inicio, meio e fim do vetor
+ 
  */
 public class Web5_MergeSort {
 
