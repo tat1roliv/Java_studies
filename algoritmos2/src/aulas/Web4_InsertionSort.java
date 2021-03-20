@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 /*
  
- https://www.youtube.com/watch?v=92BfuxHn2XE
+https://www.youtube.com/watch?v=8oJS1BMKE64
  
 o(n)² -> classe de complexidade
  
