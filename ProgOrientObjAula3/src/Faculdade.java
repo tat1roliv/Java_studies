@@ -4,15 +4,18 @@ public class Faculdade {
 
 	public static void main(String[] args) {
 		
+		
 		Boletim B1 = new Boletim();
 		Boletim B2 = new Boletim();
 		
+		//teste1
 		B1.setNota(B1.calcular_media(10.0,3.0,8.0));
 		B2.setNota(B2.calcular_media(5.0,6.5));
 		
 		System.out.println(B1.getNota());
 		System.out.println(B2.getNota());
 		
+		//teste2
 		double m_grad = B1.calcular_media(9.5, 4.7, 6.9);
 		double m_pos = B2.calcular_media(7.4, 9.2);
 		
