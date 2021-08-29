@@ -6,6 +6,8 @@ public class Fracao {
 	private int numerador;
 	private int denominador;
 	
+	//construtores
+	
 	//construtor fracao com parametro
 	public Fracao(int numerador, int denominador) {
 		this.numerador = numerador;
