@@ -17,7 +17,18 @@ public class TestaLampada {
 		lampada.tiposLampada[0] = "Abajour";
 		lampada.tiposLampada[1] = "LedWhite";
 		
+		lampada.ligar();
+		
 		System.out.println(lampada.modeloLampada);
+		lampada.mostrarEstado();
+		
+		lampada.desligar();	
+		lampada.mostrarEstado();
+		
+		lampada.mudarEstado();
+		lampada.mostrarEstado();
+		
+		
 
 	}
 

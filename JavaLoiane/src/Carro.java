@@ -8,6 +8,23 @@ public class Carro {
 	double capCombustivel;
 	double consumoCombustivel;
 	
+
+	//construtores
+	Carro() {
+		System.out.println("a classe carro foi instanciada...");
+		numPassageiros = 4;
+		
+	}
+	
+	Carro (String marca){
+		this.marca = marca;
+		
+	}
+	
+	
+	
+	
+	
 	//metodos
 	void exibirAutonomia() {
 		System.out.println("A autonomia do carro modelo " + modelo + " é de " + capCombustivel * consumoCombustivel + " km");
@@ -24,6 +41,8 @@ public class Carro {
 		double qtdCombustivel = km / consumoCombustivel;
 		return qtdCombustivel;
 	}
+	
+
 	
 	
 	
