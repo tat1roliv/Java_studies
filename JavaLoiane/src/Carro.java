@@ -1,12 +1,12 @@
-//aulas24 25 26 27
+
 public class Carro {
 	
 	//atributos
-	String marca;
+	public String marca;
 	String modelo;
 	int numPassageiros;
 	double capCombustivel;
-	double consumoCombustivel;
+	private double consumoCombustivel;
 	
 
 	//construtores
@@ -37,22 +37,26 @@ public class Carro {
 	}
 
 	//metodos
-	void exibirAutonomia() {
+	public void exibirAutonomia() {
 		System.out.println("A autonomia do carro modelo " + this.modelo + " é de " + this.capCombustivel * this.consumoCombustivel + " km");
 		
 	}
 	
-	double ObterAutonomia() {
+	public double ObterAutonomia() {
 		return this.capCombustivel * this.consumoCombustivel;
 	}
 	
-	//parametro info que nao tem na classe
-	double calcularCombustivel (double km) {
-		
-		double qtdCombustivel = km / this.consumoCombustivel;
-		return qtdCombustivel;
+	//parametro info que nao tem na classe	
+	private double divideKmPorConsumoCombustivel(double km) {
+		return km / this.consumoCombustivel;
 	}
 	
+	public double calcularCombustivel (double km) {
+
+		return this.divideKmPorConsumoCombustivel(km);
+		
+	}
+	//
 
 	
 	
