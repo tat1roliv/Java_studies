@@ -16,13 +16,14 @@ public class Carro {
 		
 	}
 	
-	Carro (String marca){
-		this.marca = marca;
-		
+	Carro (String marca_, String modelo_, double capCombustivel_, int numPassageiros_, double consumoCombustivel_){
+		marca = marca_;
+		modelo = modelo_;
+		numPassageiros = numPassageiros_;
+		capCombustivel = capCombustivel_;
+		consumoCombustivel = consumoCombustivel_;
+
 	}
-	
-	
-	
 	
 	
 	//metodos

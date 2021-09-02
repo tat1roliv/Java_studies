@@ -12,10 +12,14 @@ public class TestaCarro2 {
 		
 		System.out.println(van.numPassageiros);
 		
-		Carro van2 = new Carro("Fiat");
+		Carro van2 = new Carro("Ford", "Ka", 20, 200, 0.4);
 		van2.modelo = "Ducato";
 		
 		System.out.println(van2.marca);
+		System.out.println(van2.modelo);
+		System.out.println(van2.numPassageiros);
+		System.out.println(van2.capCombustivel);
+		System.out.println(van2.consumoCombustivel);
 		
 		
 
