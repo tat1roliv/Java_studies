@@ -4,18 +4,18 @@ public class TesteCarro {
 	public static void main(String[] args) {
 
 		Carro van = new Carro();
-		van.marca = "Fiat";
-		van.modelo = "Ducato";
-		van.numPassageiros = 10;
-		van.capCombustivel = 100;
-		van.consumoCombustivel = 0.2;
+		van.setMarca("Fiat");
+		van.setModelo("Ducato");
+		van.setNumPassageiros(10);
+		van.setCapCombustivel(100);
+		van.setConsumoCombustivel(0.2);
 		
 		Carro fusca = new Carro();
-		fusca.marca = "Volks";
-		fusca.modelo = "Fusca";
-		fusca.numPassageiros = 5;
-		fusca.capCombustivel = 50;
-		fusca.consumoCombustivel = 0.5;
+		fusca.setMarca("Volks");
+		fusca.setModelo("Fusca");
+		fusca.setNumPassageiros(5);
+		fusca.setCapCombustivel(50);
+		fusca.setConsumoCombustivel(0.5);
 		
 		
 		//autonomia
