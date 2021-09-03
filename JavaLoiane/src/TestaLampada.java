@@ -3,23 +3,23 @@ public class TestaLampada {
 
 	public static void main(String[] args) {
 		
-		lampada lampada = new lampada();
+		Lampada lampada = new Lampada();
 		
-		lampada.modeloLampada = "A60";
-		lampada.tensaoLampada = "Bivolt";
-		lampada.potenciaLampada = 7;
-		lampada.corLampada = "Branca";
-		lampada.tipoLuz = "Led";
-		lampada.garantiaMeses = 36;
-		lampada.tipoAbajour = true;
+		lampada.setModeloLampada("A60");
+		lampada.setTensaoLampada("Bivolt");
+		lampada.setPotenciaLampada(7);
+		lampada.setCorLampada("Branca");
+		lampada.setTipoLuz("Led");
+		lampada.setGarantiaMeses(36);
+		lampada.setTipoAbajour(true);
 		
-		lampada.tiposLampada = new String[5];
-		lampada.tiposLampada[0] = "Abajour";
-		lampada.tiposLampada[1] = "LedWhite";
+		lampada.setTiposLampada(new String[5]);
+		lampada.getTiposLampada()[0] = "Abajour";
+		lampada.getTiposLampada()[1] = "LedWhite";
 		
 		lampada.ligar();
 		
-		System.out.println(lampada.modeloLampada);
+		System.out.println(lampada.getModeloLampada());
 		lampada.mostrarEstado();
 		
 		lampada.desligar();	
