@@ -21,7 +21,7 @@ public class TestePonto {
 		pontoTeste2.Ponto(1,2);
 		System.out.println("Ponto 2, Coordenada x: " + pontoTeste2.getCoordX() + "\nPonto 2, Coordenada y: " + pontoTeste2.getCoordY());
 		
-		if (pontoTeste1.testaIgualdadePontos(pontoTeste2)) {		
+		if (pontoTeste1.testaIgualdadePontos(pontoTeste1, pontoTeste2)) {		
 			System.out.println("Os pontos informados são iguais");
 		}else {
 			System.out.println("Os pontos informados NÃO são iguais");

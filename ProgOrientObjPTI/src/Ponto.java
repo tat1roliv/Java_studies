@@ -24,8 +24,8 @@ public class Ponto {
 		return false;
 	}
 
-	  public boolean testaIgualdadePontos(Ponto ponto) { 
-		  if ( ponto == ponto) { 
+	  public boolean testaIgualdadePontos(Ponto ponto, Ponto pontoB) { 
+		  if ( ponto == pontoB) { 
 			  return true;
 		  } 
 		  return false; 
