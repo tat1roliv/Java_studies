@@ -17,19 +17,12 @@ public class Ponto {
 	}
 
 	//METODOS
-	public boolean testaIgualdadePontos(int coordX, int coordY) {
-		if ( this.getCoordX() == coordX && this.getCoordY() == coordY) {
+	public boolean testaIgualdadePontos(Ponto ponto) {
+		if ( this.coordX  == ponto.coordX && this.coordY == ponto.coordY) {
 			return true;
 		}
 		return false;
 	}
-
-	  public boolean testaIgualdadePontos(Ponto ponto, Ponto pontoB) { 
-		  if ( ponto == pontoB) { 
-			  return true;
-		  } 
-		  return false; 
-	  }
 	 
 	public double calculaDistanciaPontos(Ponto ponto) {
 		double dist;
