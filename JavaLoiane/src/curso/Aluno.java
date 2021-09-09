@@ -7,28 +7,35 @@ public class Aluno {
 	private double[] notas;
 	
 	//metodos
-	public String obterInfo() {
-		String info = "Nome: " + nome ;
-		info += "Matricula: " + matricula;
-		info += "Notas: " ;
-		
-		double soma = 0;
-		for (double nota: notas) {
-			info += nota + " ";
-			soma += nota;
-		}
-		
-		double media = soma/4;
-		info += "media: " + media;
-		
-		if(media >=7) {
-			info += "aprovado";
-		} else {
-			info += "reprovado";
-		}
-		
-		return info;
-	}
+	 public String obterInfo(){
+	        
+	        String info = "Nome Aluno = " + nome + "; ";
+	        info += "Matricula = " + matricula + "; ";
+	        info += "Notas: ";
+	        
+	        double soma = 0;
+	        for (double nota : notas){
+	            soma += nota;
+	            info += nota + " ";
+	        }
+	        double media = soma/4;
+	        info += "\n" + "Média = " + media + " - ";
+	        if (media >= 7){
+	            info += "Aprovado!";
+	        } else {
+	            info += "Reprovado!";
+	        }
+	                
+	        return info;        
+	    }
+	    
+	    public double obterMedia(){
+	        double soma = 0;
+	        for (double nota : notas){
+	            soma += nota;
+	        }
+	        return soma/4;
+	    }
 	
 	
 	//getters setters
