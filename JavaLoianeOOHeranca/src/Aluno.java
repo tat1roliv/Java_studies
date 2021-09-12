@@ -1,19 +1,13 @@
 
 public class Aluno extends Pessoa {
 	
-	private String cursos;
-	private double notas;
+	private String[] cursos;
+	private String[][] notas;
 	
 	//construtores
 	public Aluno() {
 		
 	}
-
-	public Aluno(String nome, String endereco, String telefone, String cpf, String cursos, double notas) {
-		this.cursos = cursos;
-		this.notas = notas;
-	}
-	
 	
 	//metodos
 	public double calcularMedia() {
@@ -23,25 +17,26 @@ public class Aluno extends Pessoa {
 	public boolean verificarAprovado() {
 		return true;
 	}
+
 	
 	
 	//getters setters
-	public String getCursos() {
+	public String[] getCursos() {
 		return cursos;
 	}
 
-	public void setCursos(String cursos) {
+	public void setCursos(String[] cursos) {
 		this.cursos = cursos;
 	}
 
-	public double getNotas() {
+	public String[][] getNotas() {
 		return notas;
 	}
 
-	public void setNotas(double notas) {
+	public void setNotas(String[][] notas) {
 		this.notas = notas;
 	}
-	
+
 	
 	
 	

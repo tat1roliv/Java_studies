@@ -7,9 +7,10 @@ public class Teste {
 		//acesso a toda a classe aluno
 		
 		aluno.setNome("Maria");
+		System.out.println(aluno.getNome());
 		
 		Pessoa professor = new Professor();
-		//nessa forma de declaracao, só se tem acesso aos atributos da classe pessoa, sem as particularidades da classe professor
+		//pessoa => superclass das classes professor e aluno => nessa forma de declaracao, só se tem acesso aos atributos da classe pessoa, sem as particularidades da classe professor
 		
 	}
 	
