@@ -9,19 +9,13 @@ public class Professor extends Pessoa {
 		
 	}
 	
-	public Professor(String nome, String endereco, String telefone, String cpf, double salario, String nomeCurso) {
-		this.salario = salario;
-		this.nomeCurso = nomeCurso;
-	}
-	
 	
 	//metodos
 	public double calcularSalarioLiquido() {
 		return 0;
 	}
 	
-	
-	
+
 	//getters setters
 	public double getSalario() {
 		return salario;

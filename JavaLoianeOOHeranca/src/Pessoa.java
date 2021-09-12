@@ -7,10 +7,25 @@ public class Pessoa {
 	private String cpf;
 	private String telefoneCelular;
 	
+	//construtores
+	public Pessoa() {
+	
+	}
+		
+	public Pessoa(String nome, String endereco, String telefone) {
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+	}
+
+
+
 	//getters setters
 	public String getNome() {
 		return nome;
 	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
