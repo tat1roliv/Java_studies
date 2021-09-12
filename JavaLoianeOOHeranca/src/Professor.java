@@ -15,6 +15,12 @@ public class Professor extends Pessoa {
 		return 0;
 	}
 	
+	public String obterEtiquetaEndereco() {
+		String enderecoProfessor = "Endereço do professor: ";
+		enderecoProfessor += super.getEndereco();
+		return enderecoProfessor;
+		
+	}
 
 	//getters setters
 	public double getSalario() {

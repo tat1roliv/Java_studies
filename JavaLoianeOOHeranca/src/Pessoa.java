@@ -18,6 +18,12 @@ public class Pessoa {
 		this.endereco = endereco;
 		this.telefone = telefone;
 	}
+	
+	//metodos
+	public String obterEtiquetaEndereco() {
+		return endereco;
+		
+	}
 
 
 

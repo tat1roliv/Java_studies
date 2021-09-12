@@ -19,12 +19,17 @@ public class Aluno extends Pessoa {
 		return 0;
 	}
 	
-
 	public boolean verificarAprovado() {
 		return true;
 	}
 
-	
+	public String obterEtiquetaEndereco() {
+		String enderecoAluno = "Endereço do aluno: ";
+		enderecoAluno += super.getEndereco();
+		return enderecoAluno;
+		
+	}
+
 	//getters setters
 	public String getCurso() {
 		return curso;

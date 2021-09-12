@@ -9,7 +9,7 @@ public class Teste {
 		aluno.setNome("Maria");
 		System.out.println(aluno.getNome());
 		
-		Pessoa professor = new Professor();
+		Pessoa professor = new Professor();//polimorfismo
 		//pessoa => superclass das classes professor e aluno => nessa forma de declaracao, só se tem acesso aos atributos da classe pessoa, sem as particularidades da classe professor
 		
 	}
