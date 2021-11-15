@@ -37,7 +37,7 @@ public class No {
 
 
 	public long getId() {
-		return 0;
+		return this.id ;
 	}
 	
 	
