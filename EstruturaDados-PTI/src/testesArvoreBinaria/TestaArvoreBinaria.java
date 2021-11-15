@@ -14,7 +14,7 @@ public class TestaArvoreBinaria {
 		arvore.inserir(999);
 		System.out.println("Letra A: número de nós esquerda festiva na árvore desenhada abaixo: " + arvore.NumeroNosEsquerdaFestiva());
 		System.out.println("Letra B: árvore hierarquizada");
-		arvore.DesenhoArvoreHierarquizada();
+		arvore.DesenhoArvoreHierarquizada2();
 
 	}
 

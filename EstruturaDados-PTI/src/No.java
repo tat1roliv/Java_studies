@@ -4,7 +4,7 @@ public class No {
    private No esq; 
    private No dir; 
    
-   //construtor no
+   //construtor
    public No(long id, No esq, No dir){ 
       this.id = id; 
       this.esq = esq; 
@@ -21,16 +21,11 @@ public class No {
    public No getDir() { 
 	   return dir; 
    }
-
-	public void setEsq(No esq) {
+   public void setEsq(No esq) {
 		this.esq = esq;
 	}
-	
-	public void setDir(No dir) {
+   public void setDir(No dir) {
 		this.dir = dir;
 	} 
-   
-   
-   
    
 } 

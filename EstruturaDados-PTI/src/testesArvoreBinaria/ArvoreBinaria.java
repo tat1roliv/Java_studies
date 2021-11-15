@@ -1,5 +1,7 @@
 package testesArvoreBinaria;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class ArvoreBinaria { 
 	
@@ -80,17 +82,18 @@ public class ArvoreBinaria {
 			return contador;
 		}	
  	
+		
 	 	//metodo desenho com hierarquia dos nos
-	 	public void DesenhoArvoreHierarquizada() {
-	 		DesenhoArvoreHierarquizada(this.raiz, "");
+	 	public void DesenhoArvoreHierarquizada2() {
+	 		DesenhoArvoreHierarquizada2(this.raiz, "");
 		}
 		
-		private void DesenhoArvoreHierarquizada(No atual, String espacos){
+		private void DesenhoArvoreHierarquizada2(No atual, String espacos){
 			
 			if( atual != null ) {
-				DesenhoArvoreHierarquizada(atual.getDir(), espacos+"    ");
+				DesenhoArvoreHierarquizada2(atual.getDir(), espacos+"    ");
 				System.out.println(espacos+atual.getId());
-				DesenhoArvoreHierarquizada(atual.getEsq(), espacos+"    ");
+				DesenhoArvoreHierarquizada2(atual.getEsq(), espacos+"    ");
 			}
 			else
 				System.out.println(espacos+"-");			
