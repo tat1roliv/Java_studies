@@ -13,9 +13,13 @@ public class TestaArvoreBinaria {
 		//ate aqui, so compara com a raiz
 		
 		arvore.inserir(40);
+		System.out.println("arvore InOrder");
+		arvore.simFixado();	
 		
-		System.out.println(arvore);
+		System.out.println("\n\narvore ");
+		arvore.Desenha();
 		
-		
+		System.out.println("\n\narvore deitada");
+		arvore.DesenhaDeitado();
 	}
 }
