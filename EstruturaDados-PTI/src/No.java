@@ -1,31 +1,35 @@
-public class No { 
+public class No {
 	
-   private long id;  
-   private No esq; 
-   private No dir; 
-   
-   //construtor
-   public No(long id, No esq, No dir){ 
-      this.id = id; 
-      this.esq = esq; 
-      this.dir = dir;  
-   } 
-   
-   //getters setters
-   public long getId() { 
-	   return this.id; 
-   } 
-   public No getEsq() { 
-	   return esq; 
-   } 
-   public No getDir() { 
-	   return dir; 
-   }
-   public void setEsq(No esq) {
+	private long id;
+	private No esq;
+	private No dir;
+	
+	public No(long val) {
+		this.id = val;
+		this.dir = null;
+		this.esq = null;
+	}
+	
+	public long getValor() {
+		return id;
+	}
+	public void setValor(long valor) {
+		this.id = valor;
+	}
+	public No getEsq() {
+		return esq;
+	}
+	public void setEsq(No esq) {
 		this.esq = esq;
 	}
-   public void setDir(No dir) {
+	public No getDir() {
+		return dir;
+	}
+	public void setDir(No dir) {
 		this.dir = dir;
-	} 
-   
-} 
+	}
+	
+	
+	
+
+}

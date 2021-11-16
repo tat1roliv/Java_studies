@@ -84,21 +84,7 @@ public class ArvoreBinaria {
  	
 		
 	 	//metodo desenho com hierarquia dos nos
-	 	public void DesenhoArvoreHierarquizada2() {
-	 		DesenhoArvoreHierarquizada2(this.raiz, "");
-		}
-		
-		private void DesenhoArvoreHierarquizada2(No atual, String espacos){
-			
-			if( atual != null ) {
-				DesenhoArvoreHierarquizada2(atual.getDir(), espacos+"    ");
-				System.out.println(espacos+atual.getId());
-				DesenhoArvoreHierarquizada2(atual.getEsq(), espacos+"    ");
-			}
-			else
-				System.out.println(espacos+"-");			
-		}
-   
+
 	
 
 }

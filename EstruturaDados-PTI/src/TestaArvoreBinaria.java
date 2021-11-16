@@ -1,20 +1,21 @@
-
 public class TestaArvoreBinaria {
-
 	public static void main(String[] args) {
 		
-		ArvoreBinaria arvore = new ArvoreBinaria();
+		ArvoreBinaria binaryTree = new ArvoreBinaria();
 		
-		arvore.inserir(555);
-		arvore.inserir(333);
-		arvore.inserir(888);
-		arvore.inserir(111);
-		arvore.inserir(444);
-		arvore.inserir(999);
-		System.out.println("Letra A: número de nós esquerda festiva na árvore desenhada abaixo: " + arvore.NumeroNosEsquerdaFestiva());
-		System.out.println("Letra B: árvore hierarquizada");
-		arvore.DesenhoArvoreHierarquizada();
+		binaryTree.adicionaNovoNo(555);
+		binaryTree.adicionaNovoNo(333);
+		binaryTree.adicionaNovoNo(888);
+		binaryTree.adicionaNovoNo(111);
+		binaryTree.adicionaNovoNo(444);
+		binaryTree.adicionaNovoNo(999);
+		binaryTree.adicionaNovoNo(100);
+		binaryTree.adicionaNovoNo(334);
+		System.out.println("PTI ESTRUTURA DE DADOS\n");
+		System.out.println("Letra A: Nós a esquerda da arvore abaixo: " + binaryTree.contaNosDaEsquerdaFestiva());
+		System.out.println("Letra B:  ");
+		binaryTree.imprimeArvore();
+		
 
 	}
-
 }
